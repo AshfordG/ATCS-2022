@@ -1,0 +1,18 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+.basic {
+    font-weight: lighter;
+    padding-top: 200px;
+    padding-left: 120px;
+}
+#main {
+    width: 500px;
+    height: auto;
+    padding-left: 650px;
+}
