@@ -1,0 +1,29 @@
+.grid {
+
+    margin: 20px;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 40% 60%;
+    grid-template-columns: 30% 70%;
+    
+}
+.row-1 {
+    /* border: 10px solid rgb(0, 0, 0); */
+    background-color: rgb(255, 255, 255);
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.row-2 {
+    /* border: 10px solid rgb(0, 56, 147); */
+    background-color: rgb(255, 255, 255);
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#logo {
+    width: 270px;
+    
+}
+.col-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
