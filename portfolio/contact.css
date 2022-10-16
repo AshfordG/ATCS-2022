@@ -1,0 +1,47 @@
+.grid {
+    /* min-height: 100vh; */
+    margin: 10px;
+    min-height: 95vh;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.col-2 {
+    display: grid;
+    grid-template-rows: 25% 50% 25%;
+}
+.row-2 {
+    background-color: aliceblue;
+    border: solid 10px rgb(0, 56, 147);
+    grid-column-end: 2;
+}
+.header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: x-large;
+    padding-left: 20px;
+}
+.link {
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
