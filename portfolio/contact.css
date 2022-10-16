@@ -3,13 +3,26 @@
     margin: 10px;
     min-height: 95vh;
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 40% 20% 40%;
 }
-.col-2 {
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+    
+}
+.col-1 {
+    border: solid 10px rgb(0, 56, 147);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    padding-left: 20px;
+
+}
+.col-3 {
     display: grid;
-    grid-template-rows: 25% 50% 25%;
+    grid-template-rows: 50% 25% 25%;
 }
-.row-2 {
+.row-1 {
     background-color: aliceblue;
     border: solid 10px rgb(0, 56, 147);
     grid-column-end: 2;
@@ -42,6 +55,11 @@ a:active {
 }
 a:link {
     color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+#colored-link {
+    color: #0000EE;
     background-color: transparent;
     text-decoration: underline;
 }
