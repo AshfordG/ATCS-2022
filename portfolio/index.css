@@ -14,21 +14,24 @@ h1 {
     padding-top: 200px;
     padding-left: 200px;
 }
+
 #main {
     width: 500px;
     height: auto;
     padding-top: 100px;
     /* padding-left: 650px; */
-    
+
 }
+
 .grid {
     /* min-height: 100vh; */
     margin: 10;
     display: grid;
     grid-template-rows: 8% 92%;
     grid-template-columns: 50% 50%;
-    
+
 }
+
 .row-1 {
     border: 10px solid rgb(0, 56, 147);
     background-color: rgb(0, 56, 147);
@@ -36,21 +39,25 @@ h1 {
     grid-column-end: 3;
     color: rgb(0, 56, 147);
 }
+
 a:visited {
     color: black;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
+
 a:hover {
     color: black;
     background-color: transparent;
     text-decoration: underline;
-  }
+}
+
 a:active {
     color: black;
     background-color: transparent;
     text-decoration: underline;
 }
+
 a:link {
     color: black;
     background-color: transparent;
