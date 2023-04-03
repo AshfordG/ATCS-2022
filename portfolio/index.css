@@ -11,7 +11,7 @@ h1 {
 
 .basic {
     margin-top: 100px;
-
+    
 }
 
 img {
@@ -35,7 +35,7 @@ img {
 .grid {
     /* min-height: 100vh; */
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 10% 90%; 
     grid-template-columns: 40% 60%;
 
 }
